@@ -1,0 +1,55 @@
+c:\users\р\documents\visual studio 2013\Projects\ink\ink\bin\Debug\ink.exe.config
+c:\users\р\documents\visual studio 2013\Projects\ink\ink\bin\Debug\ink.exe
+c:\users\р\documents\visual studio 2013\Projects\ink\ink\bin\Debug\ink.pdb
+c:\users\р\documents\visual studio 2013\Projects\ink\ink\obj\Debug\ink.csprojResolveAssemblyReference.cache
+c:\users\р\documents\visual studio 2013\Projects\ink\ink\obj\Debug\ink.Applic.resources
+c:\users\р\documents\visual studio 2013\Projects\ink\ink\obj\Debug\ink.ApplicTable.resources
+c:\users\р\documents\visual studio 2013\Projects\ink\ink\obj\Debug\ink.CreateReport.resources
+c:\users\р\documents\visual studio 2013\Projects\ink\ink\obj\Debug\ink.EmployeeForm.resources
+c:\users\р\documents\visual studio 2013\Projects\ink\ink\obj\Debug\ink.EmplTab.resources
+c:\users\р\documents\visual studio 2013\Projects\ink\ink\obj\Debug\ink.Entr.resources
+c:\users\р\documents\visual studio 2013\Projects\ink\ink\obj\Debug\ink.EquipForm.resources
+c:\users\р\documents\visual studio 2013\Projects\ink\ink\obj\Debug\ink.EquipList.resources
+c:\users\р\documents\visual studio 2013\Projects\ink\ink\obj\Debug\ink.EquipTab.resources
+c:\users\р\documents\visual studio 2013\Projects\ink\ink\obj\Debug\ink.FieldForm.resources
+c:\users\р\documents\visual studio 2013\Projects\ink\ink\obj\Debug\ink.FieldTab.resources
+c:\users\р\documents\visual studio 2013\Projects\ink\ink\obj\Debug\ink.Main_M.resources
+c:\users\р\documents\visual studio 2013\Projects\ink\ink\obj\Debug\ink.Properties.Resources.resources
+c:\users\р\documents\visual studio 2013\Projects\ink\ink\obj\Debug\ink.RepairForm.resources
+c:\users\р\documents\visual studio 2013\Projects\ink\ink\obj\Debug\ink.RepairTab.resources
+c:\users\р\documents\visual studio 2013\Projects\ink\ink\obj\Debug\ink.ReportApplicTab.resources
+c:\users\р\documents\visual studio 2013\Projects\ink\ink\obj\Debug\ink.ReportFilterTab.resources
+c:\users\р\documents\visual studio 2013\Projects\ink\ink\obj\Debug\ink.csproj.GenerateResource.Cache
+c:\users\р\documents\visual studio 2013\Projects\ink\ink\obj\Debug\ink.exe
+c:\users\р\documents\visual studio 2013\Projects\ink\ink\obj\Debug\ink.pdb
+C:\Users\р\Documents\Visual Studio 2013\Projects\ink\ink\obj\Debug\ink.About.resources
+C:\Users\р\Documents\Visual Studio 2013\Projects\ink\ink\obj\Debug\ink.Params.resources
+C:\Users\р\Desktop\ink\ink\bin\Debug\ink.exe.config
+C:\Users\р\Desktop\ink\ink\obj\Debug\ink.exe
+C:\Users\р\Desktop\ink\ink\obj\Debug\ink.pdb
+C:\Users\р\Desktop\ink\ink\bin\Debug\ink.exe
+C:\Users\р\Desktop\ink\ink\bin\Debug\ink.pdb
+C:\Users\р\Desktop\ink\ink\obj\Debug\ink.csprojResolveAssemblyReference.cache
+C:\Users\р\Desktop\ink\ink\obj\Debug\ink.About.resources
+C:\Users\р\Desktop\ink\ink\obj\Debug\ink.Applic.resources
+C:\Users\р\Desktop\ink\ink\obj\Debug\ink.ApplicTable.resources
+C:\Users\р\Desktop\ink\ink\obj\Debug\ink.CreateReport.resources
+C:\Users\р\Desktop\ink\ink\obj\Debug\ink.EmployeeForm.resources
+C:\Users\р\Desktop\ink\ink\obj\Debug\ink.EmplTab.resources
+C:\Users\р\Desktop\ink\ink\obj\Debug\ink.Entr.resources
+C:\Users\р\Desktop\ink\ink\obj\Debug\ink.EquipForm.resources
+C:\Users\р\Desktop\ink\ink\obj\Debug\ink.EquipList.resources
+C:\Users\р\Desktop\ink\ink\obj\Debug\ink.EquipTab.resources
+C:\Users\р\Desktop\ink\ink\obj\Debug\ink.FieldForm.resources
+C:\Users\р\Desktop\ink\ink\obj\Debug\ink.FieldTab.resources
+C:\Users\р\Desktop\ink\ink\obj\Debug\ink.Main_M.resources
+C:\Users\р\Desktop\ink\ink\obj\Debug\ink.Params.resources
+C:\Users\р\Desktop\ink\ink\obj\Debug\ink.Properties.Resources.resources
+C:\Users\р\Desktop\ink\ink\obj\Debug\ink.RepairForm.resources
+C:\Users\р\Desktop\ink\ink\obj\Debug\ink.RepairTab.resources
+C:\Users\р\Desktop\ink\ink\obj\Debug\ink.ReportApplicTab.resources
+C:\Users\р\Desktop\ink\ink\obj\Debug\ink.ReportFilterTab.resources
+C:\Users\р\Desktop\ink\ink\obj\Debug\ink.csproj.GenerateResource.Cache
+C:\Users\р\Desktop\Проекты\Курсовая 2016\ink\bin\Debug\ink.exe.config
+C:\Users\р\Desktop\Проекты\Курсовая 2016\ink\obj\Debug\ink.exe
+C:\Users\р\Desktop\Проекты\Курсовая 2016\ink\obj\Debug\ink.pdb

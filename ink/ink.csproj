@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5B11A3D9-58A3-4829-921F-47A0E1A4EE23}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ink</RootNamespace>
+    <AssemblyName>ink</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Abst.cs" />
+    <Compile Include="Abst2.cs" />
+    <Compile Include="Applic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applic.Designer.cs">
+      <DependentUpon>Applic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Applications.cs" />
+    <Compile Include="Application_.cs" />
+    <Compile Include="ApplicTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicTable.Designer.cs">
+      <DependentUpon>ApplicTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateReport.Designer.cs">
+      <DependentUpon>CreateReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee.cs" />
+    <Compile Include="EmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeForm.Designer.cs">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employees.cs" />
+    <Compile Include="EmplTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmplTab.Designer.cs">
+      <DependentUpon>EmplTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entr.Designer.cs">
+      <DependentUpon>Entr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EquipForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EquipForm.Designer.cs">
+      <DependentUpon>EquipForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EquipList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EquipList.Designer.cs">
+      <DependentUpon>EquipList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Equipment.cs" />
+    <Compile Include="Equipments.cs" />
+    <Compile Include="EquipTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EquipTab.Designer.cs">
+      <DependentUpon>EquipTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Field.cs" />
+    <Compile Include="FieldForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FieldForm.Designer.cs">
+      <DependentUpon>FieldForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fields.cs" />
+    <Compile Include="FieldTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FieldTab.Designer.cs">
+      <DependentUpon>FieldTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="insp.cs" />
+    <Compile Include="Main_M.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_M.Designer.cs">
+      <DependentUpon>Main_M.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NominalRepair.cs" />
+    <Compile Include="Params.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Params.Designer.cs">
+      <DependentUpon>Params.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repair.cs" />
+    <Compile Include="RepairForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepairForm.Designer.cs">
+      <DependentUpon>RepairForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Repairs.cs" />
+    <Compile Include="RepairTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepairTab.Designer.cs">
+      <DependentUpon>RepairTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report.cs" />
+    <Compile Include="ReportApplicTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportApplicTab.Designer.cs">
+      <DependentUpon>ReportApplicTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportFilterTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportFilterTab.Designer.cs">
+      <DependentUpon>ReportFilterTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports.cs" />
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applic.resx">
+      <DependentUpon>Applic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicTable.resx">
+      <DependentUpon>ApplicTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateReport.resx">
+      <DependentUpon>CreateReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeForm.resx">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmplTab.resx">
+      <DependentUpon>EmplTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entr.resx">
+      <DependentUpon>Entr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EquipForm.resx">
+      <DependentUpon>EquipForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EquipList.resx">
+      <DependentUpon>EquipList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EquipTab.resx">
+      <DependentUpon>EquipTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FieldForm.resx">
+      <DependentUpon>FieldForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FieldTab.resx">
+      <DependentUpon>FieldTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_M.resx">
+      <DependentUpon>Main_M.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Params.resx">
+      <DependentUpon>Params.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RepairForm.resx">
+      <DependentUpon>RepairForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepairTab.resx">
+      <DependentUpon>RepairTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportApplicTab.resx">
+      <DependentUpon>ReportApplicTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportFilterTab.resx">
+      <DependentUpon>ReportFilterTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
